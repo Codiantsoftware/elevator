@@ -15,11 +15,11 @@ The project consists of the following files:
 
 Clone the Repository: Clone the project repository to your local machine.
 
-git clone <repository-url>
+git clone git@github.com:Codiantsoftware/elevator.git
 
 ## Navigate to the Project Directory: Change to the project directory.
 
-cd elevator-simulation
+cd elevator
 
 ## Open elevator.html in a Browser: Open the elevator.html file in your preferred web browser.
 
