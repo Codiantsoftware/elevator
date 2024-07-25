@@ -102,9 +102,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     button.textContent = 'Call';
                     button.classList.remove('arrived');
                     elevator.classList.remove('arrived');
+                    busyElevators.delete(elevator);
+                    processQueue();
                 }, 1000);
-                busyElevators.delete(elevator);
-                processQueue();
+
             }, 2000); // 2000 ms = 2 seconds
 
         }, duration * 1000);
