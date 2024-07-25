@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator Exercise</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Elevator Exercise</h1>
+        <div id="building">
+            <!-- Floors -->
+            <div id="floors">
+                <div class="floor" data-floor="9">
+                    <span class="minWidth">9th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="8">
+                    <span class="minWidth">8th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="7">
+                    <span class="minWidth">7th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="6">
+                    <span class="minWidth">6th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="5">
+                    <span class="minWidth">5th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="4">
+                    <span class="minWidth">4th </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="3">
+                    <span class="minWidth">3rd </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="2">
+                    <span class="minWidth">2nd </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="1">
+                    <span class="minWidth">1st </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+                <div class="floor" data-floor="0">
+                    <span class="minWidth">Ground Floor </span>
+                    <div class="minWidth"><button class="call-button">Call</button></div>
+                </div>
+            </div>
+            <!-- Elevator Shafts -->
+            <div id="elevator-shafts">
+                <div class="elevator-shaft">
+                    <div class="elevator" data-elevator="1" data-floor="0">
+                        <img src="icons8-elevator.svg" alt="elevator">
+                    </div>
+                    <div class = "estimated-time" data-estimated-time="1"></div>
+                </div>
+                <div class="elevator-shaft">
+                    <div class="elevator" data-elevator="2" data-floor="0">
+                        <img src="icons8-elevator.svg" alt="elevator">
+                    </div>
+                    <div class = "estimated-time" data-estimated-time="2"></div>
+                </div>
+                <div class="elevator-shaft">
+                    <div class="elevator" data-elevator="3" data-floor="0">
+                        <img src="icons8-elevator.svg" alt="elevator">
+                    </div>
+                    <div class = "estimated-time" data-estimated-time="3"></div>
+                </div>
+                <div class="elevator-shaft">
+                    <div class="elevator" data-elevator="4" data-floor="0">
+                        <img src="icons8-elevator.svg" alt="elevator">
+                    </div>
+                    <div class = "estimated-time" data-estimated-time="4"></div>
+                </div>
+                <div class="elevator-shaft">
+                    <div class="elevator" data-elevator="5" data-floor="0">
+                        <img src="icons8-elevator.svg" alt="elevator">
+                    </div>
+                    <div class = "estimated-time" data-estimated-time="5"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+<audio id="arrival-sound" src="arrival-sound.mp3" preload="auto"></audio>
+
+</html>
